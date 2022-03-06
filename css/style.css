@@ -56,11 +56,22 @@ nav a
     
 }
 
+.description
+{
+    text-align: center;
+    line-height: 10px;
+    font-size:20px;
+    margin-top: 50px;
+}
 
-
-
-
-
+.position-absolute 
+{
+    position:absolute;
+    width: 100%;
+    align-items: center;
+    z-index: 50;
+    margin-bottom: 0;
+}
 
 
 
