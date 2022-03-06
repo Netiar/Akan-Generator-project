@@ -163,9 +163,40 @@ button
 }
 
 
+footer
+{
+    width: 100%;
+    height:10vh;
+    background:linear-gradient(to right,purple,red) ;
+
+}
+
+footer .luffy
+{
+    
+    display:flex;
+    align-items: center;
+    padding-left: 45%;
+    padding-top: 5vh;      
+   
+}
 
 
+.facebook
+{
+    width: 30px;
+    
+}
 
+.twitter
+{
+    width: 30px;
+}
+
+.instagram
+{
+    width: 30px;
+}
 
 
 
