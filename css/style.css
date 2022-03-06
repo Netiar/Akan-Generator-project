@@ -152,9 +152,14 @@ button
     width: 40%;
     margin: 3% auto;
     height: 30px;
-    font-size: 18px;    
+    font-size: 15px;
+    font-weight: bold; 
+    border-radius: 10px;   
     background:linear-gradient(to right,purple,red) ;
     margin-top: 5vh;
+    color: #fff;
+    outline: none;
+    border: none;
 }
 
 
