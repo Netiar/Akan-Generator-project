@@ -130,6 +130,7 @@ h1
     text-align: center;
     letter-spacing: 2px;
     opacity: .9;
+    margin-top: 3vh;
 }    
 
 label
@@ -146,7 +147,15 @@ input
     margin-top: 3vh;
 }
 
-
+button
+{
+    width: 40%;
+    margin: 3% auto;
+    height: 30px;
+    font-size: 18px;    
+    background:linear-gradient(to right,purple,red) ;
+    margin-top: 5vh;
+}
 
 
 
