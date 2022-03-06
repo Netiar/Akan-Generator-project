@@ -66,11 +66,17 @@
 
       <form >
        <h1>Generator</h1>
-       <label>Birthdate</label>
+       <label class="birthdate">Birthdate</label>
        <input type="date">
-       <label>Gender</label> 
-       <input type="radio"> Male
-       <input type="radio"> Female
+       
+        <label class="gender">Gender</label> 
+       <div class="radio">
+        <input type="radio" id="male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female">
+        <label for="female">Female</label>
+      </div>
        <button>Akan Name</button>
       </form>
     
