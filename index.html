@@ -13,8 +13,8 @@
       <nav>
           <img src="images/logo-dark (3).png" class="logo" alt="">
           <ul>
-              <li><a href="#"></a> About</li>
-              <li><a href="#"></a> Contents</li>              
+              <li><a href=""></a> About</li>
+              <li><a href=""></a> Contents</li>              
           </ul>
       </nav>
       <p class="description">The application should choose one's AKAN name after<br> the contents of the form are filled and submitted.</p>
@@ -64,17 +64,17 @@
 
   <div class="container">
 
-      <form >
+      <form onsubmit="event.preventDefault(); validateForm()">
        <h1>Generator</h1>
        <label class="birthdate">Birthdate</label>
-       <input type="date">
+       <input type="date" name="date">
        
         <label class="gender">Gender</label> 
        <div class="radio">
-        <input type="radio" id="male">
+        <input type="radio" id="male" name="radio" value="">
         <label for="male">Male</label>
 
-        <input type="radio" id="female">
+        <input type="radio" id="female" name="radio" value="">
         <label for="female">Female</label>
       </div>
        <button>Akan Name</button>
@@ -96,7 +96,7 @@
 
     </div>   
   </footer>
-    
+
   <script src ="js/index.js"></script>
   <script src="js/bootstrap.min.js"></script>
 </body>
