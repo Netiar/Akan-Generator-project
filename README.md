@@ -23,9 +23,9 @@
 
  [Go Back to the top](#project)
  ## Technology Used
- * HTML - which was used to build the structure of the pages.
+ * HTML5 - which was used to build the structure of the pages.
  
- * CSS - which was used to style the pages including the navigation bar.
+ * CSS3 - which was used to style the pages including the navigation bar.
  
  * JavaScript - was used to add interactivity in the submit form. 
  
